@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Brandon_bld.otf">
+            <string>BrandonGrotesque-Bold</string>
+        </array>
+        <array key="Brandon_reg.otf">
+            <string>BrandonGrotesque-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Review List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ReviewListViewController" customModule="GetYourGuideTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vRo-fR-dve">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="141"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Berlin Tempelhof Airport: The Legend of Tempelhof's Reviews" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfK-N4-bOr">
+                                        <rect key="frame" x="22" y="48" width="375" height="51.5"/>
+                                        <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjF-Jc-Oqj">
+                                        <rect key="frame" x="8" y="133" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odq-Zt-1ZU">
+                                        <rect key="frame" x="397" y="131" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="qfK-N4-bOr" firstAttribute="leading" secondItem="vRo-fR-dve" secondAttribute="leading" constant="22" id="2TL-DH-kSq"/>
+                                    <constraint firstAttribute="trailing" secondItem="qfK-N4-bOr" secondAttribute="trailing" constant="17" id="4He-sV-M4q"/>
+                                    <constraint firstAttribute="trailing" secondItem="odq-Zt-1ZU" secondAttribute="trailing" constant="17" id="Ilb-T0-7PA"/>
+                                    <constraint firstAttribute="bottom" secondItem="odq-Zt-1ZU" secondAttribute="bottom" constant="10" id="WCa-Sl-dgh"/>
+                                    <constraint firstAttribute="bottom" secondItem="PjF-Jc-Oqj" secondAttribute="bottom" constant="8" id="bVJ-5I-5FZ"/>
+                                    <constraint firstItem="PjF-Jc-Oqj" firstAttribute="leading" secondItem="vRo-fR-dve" secondAttribute="leading" constant="8" id="eSq-Wu-Hzw"/>
+                                    <constraint firstAttribute="width" constant="414" id="hbG-7r-ZFd"/>
+                                    <constraint firstAttribute="height" constant="141" id="luc-7g-Vzq"/>
+                                    <constraint firstItem="qfK-N4-bOr" firstAttribute="top" secondItem="vRo-fR-dve" secondAttribute="top" constant="48" id="oXz-jW-PyS"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eAH-3n-WxX">
+                                <rect key="frame" x="14" y="148" width="385" height="714"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reviewCell" rowHeight="123" id="rBh-qF-0CE" customClass="ReviewsTableViewCell" customModule="GetYourGuideTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="385" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rBh-qF-0CE" id="gsj-Zr-MrJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="385" height="123"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGT-a0-0Lj">
+                                                    <rect key="frame" x="2" y="9" width="381" height="22"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsf-o9-vg4">
+                                                    <rect key="frame" x="2" y="36" width="381" height="20.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="14"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xb-gu-aRf">
+                                                    <rect key="frame" x="2" y="61" width="381" height="23"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="16"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYT-4R-Gm6">
+                                                    <rect key="frame" x="2" y="90" width="381" height="20.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="14"/>
+                                                    <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="JYT-4R-Gm6" secondAttribute="trailing" constant="2" id="2kE-TP-Hez"/>
+                                                <constraint firstAttribute="trailing" secondItem="6Xb-gu-aRf" secondAttribute="trailing" constant="2" id="4xb-ga-BGR"/>
+                                                <constraint firstItem="JYT-4R-Gm6" firstAttribute="leading" secondItem="gsj-Zr-MrJ" secondAttribute="leading" constant="2" id="5AV-zA-VAp"/>
+                                                <constraint firstItem="NGT-a0-0Lj" firstAttribute="top" secondItem="gsj-Zr-MrJ" secondAttribute="top" constant="9" id="FhJ-N5-sGp"/>
+                                                <constraint firstItem="6Xb-gu-aRf" firstAttribute="top" secondItem="Nsf-o9-vg4" secondAttribute="bottom" constant="4.5" id="HBH-uK-nN8"/>
+                                                <constraint firstItem="Nsf-o9-vg4" firstAttribute="top" secondItem="NGT-a0-0Lj" secondAttribute="bottom" constant="5" id="Hol-tt-AG9"/>
+                                                <constraint firstItem="NGT-a0-0Lj" firstAttribute="leading" secondItem="gsj-Zr-MrJ" secondAttribute="leading" constant="2" id="LYs-Fp-uaR"/>
+                                                <constraint firstItem="Nsf-o9-vg4" firstAttribute="top" secondItem="NGT-a0-0Lj" secondAttribute="bottom" constant="5" id="Qp9-GI-CNk"/>
+                                                <constraint firstItem="6Xb-gu-aRf" firstAttribute="leading" secondItem="gsj-Zr-MrJ" secondAttribute="leading" constant="2" id="YQs-D4-ol2"/>
+                                                <constraint firstAttribute="trailing" secondItem="NGT-a0-0Lj" secondAttribute="trailing" constant="2" id="bd4-xN-BhS"/>
+                                                <constraint firstItem="JYT-4R-Gm6" firstAttribute="top" secondItem="6Xb-gu-aRf" secondAttribute="bottom" constant="6" id="cnW-hm-NdE"/>
+                                                <constraint firstItem="JYT-4R-Gm6" firstAttribute="top" secondItem="6Xb-gu-aRf" secondAttribute="bottom" constant="6" id="dWh-ZT-Juk"/>
+                                                <constraint firstItem="Nsf-o9-vg4" firstAttribute="leading" secondItem="gsj-Zr-MrJ" secondAttribute="leading" constant="2" id="frO-Pi-LIL"/>
+                                                <constraint firstItem="6Xb-gu-aRf" firstAttribute="top" secondItem="Nsf-o9-vg4" secondAttribute="bottom" constant="4.5" id="iDT-Hk-457"/>
+                                                <constraint firstAttribute="bottom" secondItem="JYT-4R-Gm6" secondAttribute="bottom" constant="12.5" id="q5X-by-IBb"/>
+                                                <constraint firstAttribute="trailing" secondItem="Nsf-o9-vg4" secondAttribute="trailing" constant="2" id="urj-28-JUv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="separatorInset" minX="2" minY="0.0" maxX="2" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="messageLabel" destination="6Xb-gu-aRf" id="1mZ-hq-g0u"/>
+                                            <outlet property="ratingLabel" destination="Nsf-o9-vg4" id="ieW-0k-sbD"/>
+                                            <outlet property="reviewDetailsLabel" destination="JYT-4R-Gm6" id="9fR-Fb-aTC"/>
+                                            <outlet property="titleLabel" destination="NGT-a0-0Lj" id="a4n-f3-GFh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="pYM-I4-Eb0">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vRo-fR-dve" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BwP-dl-NoT"/>
+                            <constraint firstItem="eAH-3n-WxX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LVi-Ko-RIV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eAH-3n-WxX" secondAttribute="trailing" constant="15" id="TrC-xa-ULr"/>
+                            <constraint firstItem="eAH-3n-WxX" firstAttribute="top" secondItem="vRo-fR-dve" secondAttribute="bottom" constant="7" id="j6F-iG-SnU"/>
+                            <constraint firstItem="eAH-3n-WxX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="lVQ-5R-ebh"/>
+                            <constraint firstItem="pYM-I4-Eb0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sfh-zh-9Ei"/>
+                            <constraint firstItem="pYM-I4-Eb0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xfF-s7-rQn"/>
+                            <constraint firstItem="vRo-fR-dve" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="y41-Uy-lZm"/>
+                            <constraint firstItem="vRo-fR-dve" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zu2-GQ-i0X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="averageRatingLabel" destination="odq-Zt-1ZU" id="WEO-I0-VX8"/>
+                        <outlet property="indicatorView" destination="pYM-I4-Eb0" id="vrO-1m-ptN"/>
+                        <outlet property="tableView" destination="eAH-3n-WxX" id="h3u-pL-fnn"/>
+                        <outlet property="totalReviewsLabel" destination="PjF-Jc-Oqj" id="X9I-Yp-Zow"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+</document>

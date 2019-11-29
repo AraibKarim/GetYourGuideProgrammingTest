@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0CD6DCC9-8231-44D5-8BE0-E535EDEE9591"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FBBE82F-D4D2-48BD-9417-79C30CAE0C43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/Network/GetReviewsRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43CF4B4F-DB25-4DE3-9365-B817BB0B3389"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/Network/GetReviewsClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchReviews(with:limit:offset:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD9EE664-2A60-437E-AE9D-D4C27449685A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "fetchReviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD9EE664-2A60-437E-AE9D-D4C27449685A - a23bad9c0d1bc284"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Result&lt;GetYourGuideTest.GetReviewResponse, GetYourGuideTest.DataResponseError&gt;) -&gt; () in GetYourGuideTest.GetReviewsViewModal.fetchReviews() -&gt; ()"
+                  moduleName = "GetYourGuideTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTest/ViewModal/GetReviewsViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "610">
+               </Location>
+               <Location
+                  uuid = "AD9EE664-2A60-437E-AE9D-D4C27449685A - ce10e1e61b219864"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GetYourGuideTest.Review) -&gt; () in closure #2 () -&gt; () in closure #1 (Swift.Result&lt;GetYourGuideTest.GetReviewResponse, GetYourGuideTest.DataResponseError&gt;) -&gt; () in GetYourGuideTest.GetReviewsViewModal.fetchReviews() -&gt; ()"
+                  moduleName = "GetYourGuideTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTest/ViewModal/GetReviewsViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE44132-0B11-48D6-95AE-85EFCC2D9721"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "fetchReviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97570AAC-DF82-420F-83FC-A5FA359EF7BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "fetchReviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC778449-2C07-4754-A092-A5A4D9833EB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "onFetchCompleted(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "942807CD-5D81-4F03-91F4-D908EE6D08BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/ReviewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "reviewDetails"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D28CE075-6C63-4770-B208-8BE72499332C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:prefetchRowsAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FBF6712-629F-41C2-BDDB-40D7BB0F7EA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "tableView(_:prefetchRowsAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FBB2AC8-22B1-4B84-A7BF-CCD3F3B40EE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "fetchReviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1F4AD31-1253-4FB5-8CE1-080E57F44057"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "calculateIndexPathsToReload(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25318CD5-B791-4F9E-B7AC-3272268C7FFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "fetchReviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11A068D0-A35E-440A-B845-B2C1DB5948CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewModal/GetReviewsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchReviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3566FEBF-161B-4C60-8BAF-55E485ABBC0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D100576B-D4F5-443E-9E38-4F0F611940E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTest/Views/Cell/ReviewsTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23D7AD80-097B-4C2E-ADA3-C3F21DF24CE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTestTests/GetYourGuideTestTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testGettingJSON()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8DF94F0-6AF2-4754-9FD4-073CD033AD64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65F2564F-C748-4B90-B678-64B131D08FF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ReviewsListViewControllerTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - ec3ce20b343ba0ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; GetYourGuideTestTests.ReviewsListViewControllerTests"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - 4e8fe58d57d6f282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; GetYourGuideTestTests.ReviewsListViewControllerTests"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - f11f8c225ab41d6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; GetYourGuideTestTests.ReviewsListViewControllerTests"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - 9c21c7e3cf3f08a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.init(selector: ObjectiveC.Selector) -&gt; GetYourGuideTestTests.ReviewsListViewControllerTests"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - 422638f3fffeb2be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.__allocating_init() -&gt; GetYourGuideTestTests.ReviewsListViewControllerTests"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - 4cb2581b949661d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.init() -&gt; GetYourGuideTestTests.ReviewsListViewControllerTests"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "65F2564F-C748-4B90-B678-64B131D08FF1 - d701097db4e9efb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetYourGuideTestTests.ReviewsListViewControllerTests.__deallocating_deinit"
+                  moduleName = "GetYourGuideTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/Projects/Old/Xcode%20Projects/GetYourGuideTest/GetYourGuideTestTests/ReviewsListViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
